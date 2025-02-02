@@ -19,4 +19,12 @@ source .venv/bin/activate
 python3 -m pip install --upgrade pip  
 python3 -m pip install --upgrade -r requirements.txt
 ```
-1. Copied an existing `requirements.txt` file into the repo
+4. Copied an existing `requirements.txt` file into the repo
+
+## Notebooks
+
+### gillespie_notebook.ipynb
+This is essentially just a "Hello World!" notebook.
+
+### iris_eda.ipynb
+This notebook is an analysis of the famous "iris" dataset. It utilizes pandas dataframes to overview the dataset and seaborn to visualize it with Pairwise & Scatter plots. 
